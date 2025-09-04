@@ -7,4 +7,4 @@ jobs:
       - name: Display Current Date
         run: |
 
-          echo "Current date and time: $(date +'%Y-%m-%d %H:%M:%S')"
+          echo "Current date and time: $(date +%H:%M:%S %d/%m/%y)"
